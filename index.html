@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.6/lottie.min.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dany Salgueiro | CRM expert</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="https://cdn.useanimations.com/1.0.0/useanimations.min.css">
+
+    
+</head>
+<body>
+    <nav id = "desktop-nav">
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <div class="toggle-theme" onclick="toggleTheme()">
+                <img id="theme-icon" src="/assets/moon.svg" alt="Toggle Theme" class="theme-change-moon" />
+</div>
+            </ul>
+        </div>
+ 
+    </nav>
+    <nav id = "hamburger-nav">
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+                <div class="menu-links">
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                    <li><a href="#certifications" onclick="toggleMenu()">Certifications</a></li>
+                    <div class="toggle-theme" onclick="toggleTheme()">
+                        <img id="theme-icon" src="/assets/moon.svg" alt="Toggle Theme" class="theme-change-moon" />
+        </div>
+                </div>
+                
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src="assets/Dany-profile-pic.png" alt="Profile picture">
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1">Hello there! &#128075; I'm</p>
+            <h1 class="title">Dany Salgueiro</h1>
+            <p class="section_text_p2">CRM Expert</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('assets/CV_DanySalgueiro_2024 (4).pdf')">Download CV</button>
+            </div>
+
+            <div class="socials-container">
+                <a id = "linkedin-icon-id" href="https://www.linkedin.com/in/danysalgueiro/" target="_blank">
+                    <img src="/assets/linkedin-alt.svg" alt="LinkedIn" class="social-icon-linkedin">
+                    <img src="/assets/linkedin-alt-white.svg" alt="" class="white-icon">
+                </a>
+                <a id= "mail-icon-id" href="mailto:danysalgueiro80@gmail.com">
+                    <img src="/assets/envelope-alt.svg" alt="Email" class="social-icon-mail">
+                    <img src="/assets/envelope-alt-white.svg" alt="" class="social-icon-mail-white">
+                </a>
+            </div>
+            <div class="bodymovinanim" id="arrow-animation">
+            </div>
+
+        </div>
+    </section>
+    <section id="about">
+        <p class="section_text_p1">Get To Know More</p>
+        <h1 class="title">About Me.</h1>
+    <div class="about-details-container">
+        <div class="home">
+            <img src="/assets/house-user.svg" alt="" class="icon">
+            <img src="/assets/house-user-white.svg" alt="" class="icon-white">
+            <p class="Lisbon"><b>Lisbon, Portugal</b></p>
+        </div>
+        <div class="about-containers">
+            <div class="details-container-languages">
+                    <h3 class="h3-languages">Languages</h3>                
+                <img src="/assets/portugal.png" alt="" class="flag"><p><b>Native</b></p>
+                <img src="/assets/united-kingdom.png" alt="" class="flag"><p><b>Fluent</b></p>
+                <img src="/assets/spain.png" alt="" class="flag"><p><b>Advanced</b></p>
+                <img src="/assets/germany.png" alt="" class="flag"><p><b>+250 day streak on <img src="/assets/logotype.svg" alt="Duolingo Icon" class="duolingo-icon"></b></p>
+            </div>
+        </div>
+        <div class="text-container">
+            <p>
+                I started out in marketing, thinking I’d spend my days being a social media manager. But then, I discovered the world of CRM. Turns out, I’m more into building systems and solving puzzles than I ever imagined. Now, I get to blend creativity with data and tech every day, and that was exactly what I was searching, without even knowing it! When I’m not geeking out over Salesforce Marketing Cloud, I’m probably buried in a book, or just infnitely scrolling finding the next big thing to dive into. I’m basically a lifelong learner with a love for tech and a side of nerdy curiosity! Oh, and I have friends and family that I love. You can also find me with them.
+                Anyway, if you really want to find me, why not start with connecting with me on my <a class="hyperlink-linkedin"href="https://www.linkedin.com/in/danysalgueiro/"><u>LinkedIn</u></a>.
+            </p>
+        </div>
+    </div>
+ 
+    </section>
+    <section id="experience">
+        <p class="section_text_p1">Explore</p>
+        <h1 class="title">My experience.</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">I've been working with</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="salesforce-brands-solid-dark.svg" alt="Experience Icon" class="icon">
+                            <img src="/assets/salesforce-brands-solid-white.svg" alt="Experience Icon" class="icon-white-exp">
+                            
+                            <h3>Salesforce MC</h3>
+                            <p>Advanced</p>
+                        </article>
+                        <article>
+                            <img src="/assets/database.svg" alt="Experience Icon" class="icon">
+                            <img src="/assets/database-white.svg" alt="Experience Icon" class="icon-white-exp">
+                            <h3>SQL</h3>
+                            <p>Advanced</p>
+                        </article>
+                        <article>
+                            <img src="/assets/brackets-curly.svg" alt="Experience Icon" class="icon">
+                            <img src="/assets/brackets-curly-white.svg" alt="Experience Icon" class="icon-white-exp">
+                            <h3>AMPscript</h3>
+                            <p>Advanced</p>
+                        </article>
+                        <article>
+                            <img src="/assets/html5.svg" alt="Experience Icon" class="icon">
+                            <img src="/assets/html5-white.svg" alt="Experience Icon" class="icon-white-exp">
+                            <h3>HTML</h3>
+                            <p>Advanced</p>
+                        </article>
+                        <article>
+                            <img src="/assets/css3-simple.svg" alt="Experience Icon" class="icon">
+                            <img src="/assets/css3-simple-white.svg" alt="Experience Icon" class="icon-white-exp">
+                            <h3>CSS</h3>
+                            <p>Advanced</p>
+                        </article>
+                        <article>
+                            <img src="/assets/java-script.svg" alt="Experience Icon" class="icon">
+                            <img src="/assets/java-script-white.svg" alt="Experience Icon" class="icon-white-exp">
+                            <h3>JavaScript</h3>
+                            <p>Advanced</p>
+                        </article>
+                        <article>
+                            <img src="/assets/adobe.svg" alt="Experience Icon" class="icon">
+                            <img src="/assets/adobe-white.svg" alt="Experience Icon" class="icon-white-exp">
+                            <h3>Adobe CS</h3>
+                            <p>Advanced</p>
+                        </article>
+                        <div>
+
+                        </div>
+                    </div>
+                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="certifications">
+        <p class="section_text_p1">Browse my most recent</p>
+        <h1 class="title">Certifications.</h1>
+        
+        <div class="image-grid">
+            <div class="grid-item">
+                <img src="assets/MarketingCloudDeveloper_Dany.jpg" alt="Certificação 1">
+                <h3 class="h3-SFcert">Saleforce Marketing Cloud Developer</h3>
+            </div>
+            <div class="grid-item">
+                <img src="/assets/MarketingCloudEmailSpecialist_Dany.jpg" alt="Certificação 2">
+                <h3 class="h3-SFcert">Salesforce Marketing Cloud Email Specialist</h3>
+            </div>
+
+        </div>
+
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
