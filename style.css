@@ -577,7 +577,7 @@ article, .icon{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Colunas responsivas com tamanho mínimo de 300px */
     gap: 1.5rem; /* Espaçamento entre os itens */
-    padding: 5rem; /* Espaçamento interno da grid */
+    padding-top: 5rem; /* Espaçamento interno da grid */
     justify-items: center; /* Centraliza os itens na coluna */
 }
 
