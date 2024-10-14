@@ -551,6 +551,7 @@ article, .icon{
 #certifications{
     position: relative;
     padding-top: 10rem;
+    margin-bottom: 10rem;
 }
 .color-container{
     border-color: rgb(153, 153,153);
