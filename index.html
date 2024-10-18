@@ -28,22 +28,25 @@
  
     </nav>
     <nav id = "hamburger-nav">
+        <div class="toggle-theme" onclick="toggleTheme()">
+            <img id="theme-icon" src="./assets/moon.svg" alt="Toggle Theme" class="theme-change-moon" />
+    </div>
         <div class="hamburger-menu">
             <div class="hamburger-icon" onclick="toggleMenu()">
             <span></span>
             <span></span>
             <span></span>
+            </div>
                 <div class="menu-links">
                     <li><a href="#about" onclick="toggleMenu()">About</a></li>
                     <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
                     <li><a href="#certifications" onclick="toggleMenu()">Certifications</a></li>
-                    <div class="toggle-theme" onclick="toggleTheme()">
-                        <img id="theme-icon" src="./assets/moon.svg" alt="Toggle Theme" class="theme-change-moon" />
-        </div>
-                </div>
+
                 
             </div>
         </div>
+
+
     </nav>
     <section id="profile">
         <div class="section_pic-container">
@@ -57,7 +60,6 @@
                     <a href="./assets/CV_DanySalgueiro_2024.pdf" download>
                                 <button class="btn btn-color-2">Download CV</button>
             </div>
-
             <div class="socials-container">
                 <a id = "linkedin-icon-id" href="https://www.linkedin.com/in/danysalgueiro/" target="_blank">
                     <img src="./assets/linkedin-alt.svg" alt="LinkedIn" class="social-icon-linkedin">
@@ -83,12 +85,13 @@
             <p class="Lisbon"><b>Lisbon, Portugal</b></p>
         </div>
         <div class="about-containers">
+            <div class="h3-languages"><h3>Languages</h3></div>   
             <div class="details-container-languages">
-                    <h3 class="h3-languages">Languages</h3>                
-                <img src="./assets/portugal.png" alt="" class="flag"><p><b>Native</b></p>
-                <img src="./assets/united-kingdom.png" alt="" class="flag"><p><b>Fluent</b></p>
-                <img src="./assets/spain.png" alt="" class="flag"><p><b>Advanced</b></p>
-                <img src="./assets/germany.png" alt="" class="flag"><p><b>+250 day streak on <img src="./assets/logotype.svg" alt="Duolingo Icon" class="duolingo-icon"></b></p>
+                    <div class="Portugal"><img src="./assets/portugal.png" alt="" class="flag"><p><b>Native</b></p></div>             
+                    <div class="UK"><img src="./assets/united-kingdom.png" alt="" class="flag"><p><b>Fluent</b></p></div>
+                    <div class="Spain"><img src="./assets/spain.png" alt="" class="flag"><p><b>Advanced</b></p></div>
+                    <div class="Germany"><img src="./assets/germany.png" alt="" class="flag"><p><b>+250 day streak on <img src="./assets/logotype.svg" alt="Duolingo Icon" class="duolingo-icon"></b></p></div>
+                
             </div>
         </div>
         <div class="text-container">
@@ -181,4 +184,4 @@
     </section>
     <script src="script.js"></script>
 </body>
-</html>
+</html> 
