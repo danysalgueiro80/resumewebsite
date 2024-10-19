@@ -239,6 +239,8 @@ body.dark-mode #theme-icon:hover {
 .hamburger-menu{
     position: relative;
     display: inline-block;
+    padding: 10px;
+    padding-left: 60px;
 }
 .hamburger-icon{
     display: flex;
