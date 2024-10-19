@@ -234,6 +234,7 @@ body.dark-mode #theme-icon:hover {
 /* HAMBURGER MENU */
 #hamburger-nav{
     display: none;
+    gap: 10rem;
 }
 .hamburger-menu{
     position: relative;
@@ -317,8 +318,6 @@ body.dark-mode #theme-icon:hover {
     opacity: 1;
     z-index: 1;
 }
-
-
 
 
 /* SECTIONS */
@@ -554,7 +553,7 @@ section{
     display: flex;
     gap: 2rem;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .duolingo-icon{
