@@ -243,7 +243,7 @@ body.dark-mode #theme-icon:hover {
 .hamburger-icon{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     height: 24px;
     width: 30px;
     cursor: pointer;
@@ -290,22 +290,19 @@ body.dark-mode #theme-icon:hover {
     padding-left: 60px;
 }
 .hamburger-icon.open span:first-child {
-    transform: rotate(45deg) translate(10px, 5px);
+    transform: rotate(45deg) translate(4px, 4px);
     transition: transform 0.3s ease-in-out;
     z-index: 1;
 }
-.hamburger-icon.open span:nth-child(2){
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-    z-index: 1;
-}
+
 .hamburger-icon.open span:last-child {
-    transform: rotate(-45deg) translate(10px, -5px);
+    transform: rotate(-45deg) translate(4px, -4px);
     transition: transform 0.3s ease-in-out;
     z-index: 1;
+    opacity: 1;
 }
 .hamburger-icon span:first-child{
-    transform: rotate(-45deg) translate(-10px, -5px);
+    transform: rotate(-45deg) translate(-5px, -5px);
     transition: transform 0.3s ease-in-out;
     opacity: 1;
     z-index: 1;
@@ -314,6 +311,7 @@ body.dark-mode #theme-icon:hover {
     transform: none;
 }
 .hamburger-icon span:last-child{
+    transform: none;
     transition: transform 0.3s ease-in-out;
     opacity: 1;
     z-index: 1;
