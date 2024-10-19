@@ -145,7 +145,6 @@ body.dark-mode .section_text_p2 {
     list-style: none;
 }
 
-
 html{
     scroll-behavior: smooth;
 }
@@ -239,8 +238,6 @@ body.dark-mode #theme-icon:hover {
 .hamburger-menu{
     position: relative;
     display: inline-block;
-    padding: 10px;
-    padding-left: 60px;
 }
 .hamburger-icon{
     display: flex;
@@ -271,12 +268,10 @@ body.dark-mode #theme-icon:hover {
     overflow: hidden;
     transition: all 0.3s ease-in-out;
 }
-
 .menu-links.open {
     max-height: 100vh; /* Preenche a altura completa ao abrir */
     z-index: 0;
 }
-
 .menu-links a {
     display: block;
     padding: 10px;
@@ -289,7 +284,10 @@ body.dark-mode #theme-icon:hover {
 .menu-links li {
     list-style: none;
 }
-
+.hamburger-icon.open{
+    padding: 20px;
+    padding-left: 60px;
+}
 .hamburger-icon.open span:first-child {
     transform: rotate(45deg) translate(10px, 5px);
     transition: transform 0.3s ease-in-out;
@@ -306,10 +304,18 @@ body.dark-mode #theme-icon:hover {
     z-index: 1;
 }
 .hamburger-icon span:first-child{
+    transform: rotate(-45deg) translate(-10px, -5px);
+    transition: transform 0.3s ease-in-out;
     opacity: 1;
+    z-index: 1;
 }
 .hamburger-icon span:first-child{
     transform: none;
+}
+.hamburger-icon span:last-child{
+    transition: transform 0.3s ease-in-out;
+    opacity: 1;
+    z-index: 1;
 }
 
 
